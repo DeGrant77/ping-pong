@@ -1,5 +1,4 @@
-from Ball_movement import Point
-from Ball_movement import Velocity
+from Ball_movement import Point, Velocity
 import arcade
 import random
 
@@ -58,6 +57,7 @@ class Paddle:
     """
     The paddle class makes use of the Point class and has methods to control the movement of the paddle
     """
+
 
     def __init__(self):
         self.center = Point()

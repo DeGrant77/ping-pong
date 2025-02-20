@@ -6,8 +6,7 @@ This program implements a simplistic version of the
 classic Pong arcade game.
 """
 import arcade
-from Game_Object import Ball
-from Game_Object import Paddle
+from Game_Object import Ball, Paddle
 from Outline import Outline
 
 # These are Global constants to use throughout the game
